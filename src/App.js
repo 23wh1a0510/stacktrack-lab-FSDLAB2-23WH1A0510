@@ -16,7 +16,13 @@ function App() {
       <button>Upload</button>
       <p>file uploaded successfully</p>
       "file" value = {"fileee.txt"} onChange = {handleFileChange}
-      
+       <input type = "description" placeholder="Enter description" />
+       <button>Submit</button>
+       <p>Description submitted successfully</p>
+        <input type = "date" placeholder="Enter date" />
+        <button>Submit</button>
+        <p>Date submitted successfully</p>
+        
       
 
     </div>
